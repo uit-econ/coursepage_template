@@ -2,6 +2,12 @@
 1. Remove all but {% include_relative navbar.html %} in navbar_closed.html and navbar_open.html
 2. Remove `<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>` from navbar.html
 3. Replace _includes/css.html in the target repository with the corresponding css here
+4. add breaks to top-box.html
+
+## Easy way: 
+
+1, Remove `<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>` from navbar.html
+2. Replace navbar_closed.html, navbar_open.html, css.html, top-box.html
 
 ## The changes to the css were:
 1. all occurences of "sidenav"
