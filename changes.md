@@ -5,7 +5,7 @@
 4. add breaks to top-box.html
 
 ## Easy way: 
-1, Remove `<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>` from navbar.html
+1. Remove `<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>` from navbar.html
 2. Replace navbar_closed.html, navbar_open.html, css.html, top-box.html
 
 ## The changes to the css were:
