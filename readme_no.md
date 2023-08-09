@@ -1,5 +1,5 @@
 
-{% include navbar_open.html %}{% include top-box.html %}
+{% include navbar.html %}{% include top-box.html %}
 <br><br><br>
 <div align="right">
 	<a href="readme_en.html"><img src="https://uit-econ.github.io/images/Norway.png"></a>
@@ -63,7 +63,7 @@ Det første vi må gjøre er å lage en "organisasjon", som skal eie kurssiden. 
 
 3. Det er allerede maler for startsiden ("start.md"), forelesningsplan ("forelesningsplan.md"),
 	seminarer ("seminarplan.md") and innleveringer ("innleveringer.md"). Du kan se av disse eksemplene hvordan du lager lenker og tabeller. <br><br>
-	**VIKTIG!** Om du lager en ny markdownfil (.md), legg alltid inn **\{\% include navbar_open.html \%\}\{\% include top-box.html \%\}** i toppen av dokumentet. Dette sørger for at venstremenyen og topp-boksen lastes med siden.<br><br>
+	**VIKTIG!** Om du lager en ny markdownfil (.md), legg alltid inn **\{\% include navbar.html \%\}\{\% include top-box.html \%\}** i toppen av dokumentet. Dette sørger for at venstremenyen og topp-boksen lastes med siden.<br><br>
 
 Unntaket fra denne regelen er at "start.md" ***aldri*** skal ha uttrykket med kurvparenteser øverst.<br><br>
 Filene "index.md" og "index_open.md" skal ikke redigeres. <br><br>

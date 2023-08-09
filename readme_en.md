@@ -1,5 +1,5 @@
 
-{% include navbar_open.html %}{% include top-box.html %}
+{% include navbar.html %}{% include top-box.html %}
 <br><br><br>
 <div align="right">
 <a href="readme_no.html"><img src="https://uit-econ.github.io/images/GB.png"></a>
@@ -62,7 +62,7 @@ You can edit existing links by changing the link address and the link text. If y
 
 3. There are all ready templates in Norwegian for the start page ("start.md"), lecture plan ("forelesningsplan.md"),
 tutorial plan ("seminarplan.md") and plan for submissions ("innleveringer.md"). You can see from these examples how you create links and tables.<br><br>
-**IMPORTANT!** If you create new markup (.md) files, always put **\{\% include navbar_open.html \%\}\{\% include top-box.html \%\}** in the top of the document. This ensures that the left menu and the top heading box are loaded with the page.<br><br>
+**IMPORTANT!** If you create new markup (.md) files, always put **\{\% include navbar.html \%\}\{\% include top-box.html \%\}** in the top of the document. This ensures that the left menu and the top heading box are loaded with the page.<br><br>
 The exception from this rule is "start.md" that should ***not*** have the curly bracket expression in the top.<br><br>
 The files "index.md" and "index_open.md" should not be edited. <br><br>
 
